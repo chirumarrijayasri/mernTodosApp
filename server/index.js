@@ -16,7 +16,7 @@ app.get('/', (req,res) => {
     console.log('welcome to server')
 })
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 9999;
 
 app.listen(port, () => {
     mongoose.connect(db)
